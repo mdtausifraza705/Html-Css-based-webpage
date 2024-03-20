@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Container{
+            display:grid;
+            grid-template-rows: 1fr .60fr;
+            grid-template-columns: 1fr 1fr;
+            background-color: #282828;
+            height: 100vh;
+            
+        }
+        #firstbox
+        {
+            background-color: #FFCD9E;
+;
+        }
+        #secondbox{
+             background-color: #FFCD9E;
+             size: 100px;
+
+        }
+        #h1{
+            margin: 10% 26% 0% 15%;
+            padding: 5PX;
+            
+        }
+        #p{
+            margin: -2% 29% -9% 10%;
+            padding:6%; 
+        }
+        #h4{
+            margin: 2% 45% -1% 11%;
+            padding:5%;
+        }
+        #h6
+        {
+            color: white;
+            margin: -2% 0% 0% 12%;
+            padding:5%;
+        }
+        .registerbtn
+        {
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+            
+        }
+        #email {
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 32px; 
+            width: 185px;
+            margin: -2% 1% -2% 15%;
+            padding: 2px;
+        }
+        .LeftItem{
+            list-style: none;
+            margin: 15px 4px 18px 59px;
+            padding: 50px;
+            text-align:justify;
+            color: white;
+        }
+        li{
+            padding: 5px;
+        }
+        .rightItem{
+            list-style: none;
+            margin: 22px 72px 153px 59px;
+            padding: 30px;
+            text-align-last: right;
+            color: white;
+        }
+        #images
+        {
+            margin: -3% 0% 0% 19%;
+            height:500px;
+            width:500px
+        }
+    </style>
+</head>
+<body>
+    <div id="Container">
+        <div id="firstbox">.
+            <h1 id="h1">An inspiring design delivered to your inbox every morning</h1>
+            <p id="p">Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox</p>
+            <h4 id="h4">Show me how it looks</h4>
+            <input type="email" id="email" name="email" placeholder= "  Your e-mail address">
+            <button type="submit" class="registerbtn">Register Now</button>
+            <h6 id="h6">Free - No Spam - No Data Sharing</h6>
+        </div>
+        <div id="secondbox">
+         <img id="images" src="TestImage.png" alt="Image not loaded">
+        </div>
+        <div id="footer-left">
+            <ul class="LeftItem">
+                <li>Prompt Generator</li>
+                <li>Dwep Daily</li>
+                <li>All Contributors</li>
+                <li>Your Data on Dweep.io</li>
+                <li>Contribute to Dweep</li>
+            </ul>
+           </div>
+           <div id="footer-right">
+            <ul class="rightItem">
+                <li> Dweep.io</li>
+                <li>Made with love in India</li>
+                <li ><img id="image" src="InstagramLogo.png" alt="page loading">
+                    <img src="LinkedinLogo.png" alt="page loading"></li>
+                <li><br></li>
+                <li>hello@dweep.io</li>
+            </ul>
+           </div>
+    </div>
+</body>
+</html>
